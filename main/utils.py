@@ -1,26 +1,26 @@
-import face_recognition
+# # import face_recognition
 
-def get_face_embedding(image_path):
+# def get_face_embedding(image_path):
     
-    image = face_recognition.load_image_file(image_path)
-    face_locations = face_recognition.face_locations(image)
-    
-    
-    if len(face_locations) == 0:
-        return None
+#     image = face_recognition.load_image_file(image_path)
+#     face_locations = face_recognition.face_locations(image)
     
     
-    face_encodings = face_recognition.face_encodings(image, face_locations)
-    return face_encodings[0] 
+#     if len(face_locations) == 0:
+#         return None
+    
+    
+#     face_encodings = face_recognition.face_encodings(image, face_locations)
+#     return face_encodings[0] 
 
-def calculate_similarity(embedding1, embedding2):
+# def calculate_similarity(embedding1, embedding2):
     
-    if embedding1 is None or embedding2 is None:
-        return None
+#     if embedding1 is None or embedding2 is None:
+#         return None
     
-    distance = face_recognition.face_distance([embedding1], embedding2)
-    similarity_score = 1 - distance[0]
-    return int(similarity_score*100)
+#     distance = face_recognition.face_distance([embedding1], embedding2)
+#     similarity_score = 1 - distance[0]
+#     return int(similarity_score*100)
 
 # def main():
 #     # Path to the images of the two people you want to compare

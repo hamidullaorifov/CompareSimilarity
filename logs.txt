@@ -1,0 +1,2 @@
+<built-in method now of type object at 0x00007FFD2D415F10> | request method: POST, username:johndoe,status: fail
+2023-07-27 21:03:27.984433 | request method: POST, username:johndoe,status: fail
