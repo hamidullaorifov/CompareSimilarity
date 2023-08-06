@@ -4,4 +4,5 @@ djangorestframework-simplejwt
 drf-yasg
 Pillow
 django-taggit
-face_recognition
+# face_recognition
+deepface
