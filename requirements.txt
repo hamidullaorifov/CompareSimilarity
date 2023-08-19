@@ -5,4 +5,4 @@ drf-yasg
 Pillow
 django-taggit
 # face_recognition
-deepface
+# deepface
